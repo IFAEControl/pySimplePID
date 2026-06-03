@@ -1,3 +1,4 @@
+
 [build-system]
 requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
@@ -9,6 +10,20 @@ description = "A small deterministic PID controller library for Python."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = []
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+{ name = "Otger Ballester", email = "otger@ifae.es" }
+]
+classifiers = [
+"Programming Language :: Python :: 3",
+"Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/IFAEControl/pySimplePID"
+Repository = "https://github.com/IFAEControl/pySimplePID"
+Issues = "https://github.com/IFAEControl/pySimplePID/issues"
 
 [project.optional-dependencies]
 gui = ["PySide6>=6.6"]
